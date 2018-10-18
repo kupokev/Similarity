@@ -17,9 +17,13 @@ The common language runtime (CLR) integration feature is off by default in Micro
 To enable the CLR Integration run the following script in SQL Server
 
 > -- Enable Clr
+>
 > sp_configure 'clr enabled', 1;
+>
 > GO
+>
 > RECONFIGURE;
+>
 > GO
 
 
